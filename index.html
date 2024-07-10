@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Make Coundown </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
+
+</head>
+
+<body>
+
+  <div style="width: 100%;
+  height: 100vh;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;">
+    <h1 class="text-center">Coundown</h1>
+    <div class="d-flex justify-content-center column-gap-2 mb-4">
+      <span id="weeks" class=" bg-dark text-white  fs-3 mt-3 p-4 mx-2 rounded-circle">00</span>
+      <span id="days" class="bg-dark text-white fs-3 mt-3 p-4 mx-2 rounded-circle">00</span>
+      <span id="hours" class="bg-dark  text-white  fs-3 mt-3 p-4 mx-2 rounded-circle">00</span>
+      <span id="minutes" class=" bg-dark  text-white  fs-3 mt-3 p-4 mx-2 rounded-circle">00</span>
+      <span id="seconds" class=" bg-dark text-white  fs-3 mt-3 p-4 mx-2 rounded-circle">00</span>
+    </div>
+
+    <div class="d-flex ">
+      <h3 class="mx-4">Week</h3>
+      <h3 class="mx-4">Day</h3>
+      <h3 class="mx-4">Hrs</h3>
+      <h3 class="mx-4">Min</h3>
+      <h3 class="mx-4">Sec</h3>
+    </div>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+  <script src="js/count.js"></script>
+</body>
+
+</html>
