@@ -1,8 +1,8 @@
+let weeks = document.getElementById('weeks');
+let days = document.getElementById('days');
 let hours = document.getElementById("hours");
 let minutes = document.getElementById("minutes");
 let seconds = document.getElementById("seconds");
-let days = document.getElementById('days');
-let weeks = document.getElementById('weeks');
 
     let week = 0;
     let day = 0;
